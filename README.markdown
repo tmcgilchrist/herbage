@@ -3,6 +3,17 @@ Rails application to store plants in our garden. Include pictures with clickable
 areas that link to the plant in the picture. Similar to how flickr picture can
 be tagged.
 
+Plant information with accurate pictures. Allow ppl to upload their own photos
+and tag them.
+
+Finding accurate plant information is difficult and it's scattered across
+various sites and/or books. Provide community edited plant database that is
+searchable. Allow people to modify details like growing information, flowering
+etc.
+
+The plant DB is the MVP. Allow CRUD plus powerful searching.
+
+
 Features:
 
  * Searchable catalogue of plants
@@ -12,7 +23,13 @@ Features:
  * Recommendations on plants or feedback on how they are going.
  * Map with flowering slider, showing what will be flowering at particular times so you can plan a garden around it.
  * Intelligent agent to recommend fixes/solutions to common plant issues. ie describe leaf colour, soil condition, etc and come up with some solutions to try.
-
+ * Link to sellers of plants, seeds and related equipment.
+ * Social by having notifications, follow other people and forum/comments on
+   peoples work
+ * Landscape designers and other professionals could have personalised space to
+   showcase their work with pictures and explaination. As an alternative to
+   having their own site?
+ *
 
 ## Location
 
@@ -21,7 +38,7 @@ https://bitbucket.org/lambda_foo/herbage
 ## Technologies
 
 * Rails 3.2 or higher
-* MongoDB
+* Postgres 9
 * Heroku hosting
 
 ## Data Model
@@ -29,12 +46,14 @@ https://bitbucket.org/lambda_foo/herbage
  * Map -> basic dimensions, geolocation, plan/schematic?
  * Plant -> individual species
 
+Store data as markdown within the application and render it on demand.
 
-## Questions
+Provide github like markdown editing page with preview button that works via
+AJAX.
 
- * Look at plant tags for information about plants.
- * Sketch out domain
+Provide rails controller that takes markdown request and returns html.
 
-## MongoDB
+## Links and Inspiration
 
-To start just use `mongod` in a new terminal.
+  * [http://www.frecklegirl.com/blog/2005/04/12/knitters-help/](http://www.frecklegirl.com/blog/2005/04/12/knitters-help/)
+  * [http://codemonkey.ravelry.com/2010/03/24/ravelry-runs-on-2010/](http://codemonkey.ravelry.com/2010/03/24/ravelry-runs-on-2010/)

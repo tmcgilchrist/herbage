@@ -1,0 +1,7 @@
+- Simple CRUD interface for Plants
+- Gather sample plant tags from our garden.
+
+- install and configure cucumber.
+
+- sketch out mockups for main page, add/edit page & search page
+- use OAuth library to do twitter or google logins

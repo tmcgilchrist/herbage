@@ -1,0 +1,56 @@
+2012-04-12 09:13:04.279 [info] <0.7.0> Application lager started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.394 [warning] <0.87.0>@riak_core_app:start:87 No ring file available.
+2012-04-12 09:13:04.395 [info] <0.7.0> Application riak_core started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.398 [info] <0.7.0> Application riak_control started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.399 [info] <0.7.0> Application basho_metrics started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.401 [info] <0.7.0> Application cluster_info started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.412 [info] <0.7.0> Application merge_index started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.437 [info] <0.217.0>@riak_core:wait_for_application:396 Waiting for application riak_pipe to start (0 seconds).
+2012-04-12 09:13:04.438 [info] <0.7.0> Application riak_pipe started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.472 [info] <0.7.0> Application inets started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.476 [info] <0.7.0> Application mochiweb started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.490 [info] <0.7.0> Application erlang_js started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.498 [info] <0.7.0> Application luke started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.538 [info] <0.217.0>@riak_core:wait_for_application:390 Wait complete for application riak_pipe (0 seconds)
+2012-04-12 09:13:04.592 [info] <0.395.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.395.0>)
+2012-04-12 09:13:04.596 [info] <0.396.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.396.0>)
+2012-04-12 09:13:04.598 [info] <0.397.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.397.0>)
+2012-04-12 09:13:04.601 [info] <0.398.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.398.0>)
+2012-04-12 09:13:04.603 [info] <0.399.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.399.0>)
+2012-04-12 09:13:04.606 [info] <0.400.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.400.0>)
+2012-04-12 09:13:04.608 [info] <0.401.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.401.0>)
+2012-04-12 09:13:04.610 [info] <0.402.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_map) host starting (<0.402.0>)
+2012-04-12 09:13:04.613 [info] <0.404.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.404.0>)
+2012-04-12 09:13:04.616 [info] <0.405.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.405.0>)
+2012-04-12 09:13:04.619 [info] <0.406.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.406.0>)
+2012-04-12 09:13:04.622 [info] <0.407.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.407.0>)
+2012-04-12 09:13:04.626 [info] <0.408.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.408.0>)
+2012-04-12 09:13:04.628 [info] <0.409.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_reduce) host starting (<0.409.0>)
+2012-04-12 09:13:04.631 [info] <0.411.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.411.0>)
+2012-04-12 09:13:04.634 [info] <0.412.0>@riak_kv_js_vm:init:76 Spidermonkey VM (thread stack: 16MB, max heap: 8MB, pool: riak_kv_js_hook) host starting (<0.412.0>)
+2012-04-12 09:13:04.657 [info] <0.7.0> Application bitcask started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.717 [info] <0.492.0>@riak_core:wait_for_application:396 Waiting for application riak_kv to start (0 seconds).
+2012-04-12 09:13:04.722 [info] <0.7.0> Application riak_kv started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:04.725 [info] <0.498.0>@riak_core:wait_for_service:416 Waiting for service riak_kv to start (0 seconds)
+2012-04-12 09:13:04.819 [info] <0.492.0>@riak_core:wait_for_application:390 Wait complete for application riak_kv (0 seconds)
+2012-04-12 09:13:05.028 [info] <0.498.0>@riak_core:wait_for_service:410 Wait complete for service riak_kv (0 seconds)
+2012-04-12 09:13:05.055 [info] <0.1529.0>@riak_core:wait_for_application:396 Waiting for application riak_search to start (0 seconds).
+2012-04-12 09:13:05.061 [info] <0.7.0> Application riak_search started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:05.061 [info] <0.7.0> Application basho_stats started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:05.077 [info] <0.7.0> Application runtime_tools started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:05.077 [info] <0.7.0> Application public_key started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:05.099 [info] <0.7.0> Application ssl started on node 'riak703733@127.0.0.1'
+2012-04-12 09:13:05.156 [info] <0.1529.0>@riak_core:wait_for_application:390 Wait complete for application riak_search (0 seconds)
+2012-04-12 17:02:05.437 [info] <0.41.0> alarm_handler: {clear,system_memory_high_watermark}
+2012-04-12 17:17:44.161 [warning] <0.50.0> OS_MON (memsup) timeout, no data collected
+
+2012-04-12 17:17:44.209 [info] <0.72.0>@riak_core_sysmon_handler:handle_event:85 monitor long_gc <0.108.0> [{name,riak_core_vnode_manager},{initial_call,{riak_core_vnode_manager,init,1}},{almost_current_function,{gen_server,loop,6}},{message_queue_len,0}] [{timeout,689583},{old_heap_block_size,0},{heap_block_size,10946},{mbuf_size,0},{stack_size,11},{old_heap_size,0},{heap_size,3882}]
+2012-04-12 20:26:30.257 [warning] <0.50.0> OS_MON (memsup) timeout, no data collected
+
+2012-04-12 20:27:00.267 [info] <0.41.0> alarm_handler: {set,{system_memory_high_watermark,[]}}
+2012-04-13 11:21:38.965 [info] <0.72.0>@riak_core_sysmon_handler:handle_event:85 monitor long_gc <0.1621.0> [{initial_call,{riak_core_vnode,init,1}},{almost_current_function,{gen_fsm,loop,7}},{message_queue_len,0}] [{timeout,657},{old_heap_block_size,0},{heap_block_size,233},{mbuf_size,0},{stack_size,14},{old_heap_size,0},{heap_size,48}]
+2012-04-13 11:21:38.966 [info] <0.72.0>@riak_core_sysmon_handler:handle_event:85 monitor long_gc <0.108.0> [{name,riak_core_vnode_manager},{initial_call,{riak_core_vnode_manager,init,1}},{almost_current_function,{gen_server,loop,6}},{message_queue_len,0}] [{timeout,657},{old_heap_block_size,0},{heap_block_size,4181},{mbuf_size,0},{stack_size,11},{old_heap_size,0},{heap_size,2028}]
+2012-04-13 11:22:09.261 [info] <0.72.0>@riak_core_sysmon_handler:handle_event:85 monitor long_gc <0.108.0> [{name,riak_core_vnode_manager},{initial_call,{riak_core_vnode_manager,init,1}},{almost_current_function,{riak_core_ring,'-index_owner/2-lc$^0/1-0-',2}},{message_queue_len,0}] [{timeout,308},{old_heap_block_size,0},{heap_block_size,6765},{mbuf_size,0},{stack_size,22},{old_heap_size,0},{heap_size,3344}]
+2012-04-13 11:33:38.652 [info] <0.72.0>@riak_core_sysmon_handler:handle_event:85 monitor long_gc <0.1204.0> [{initial_call,{riak_core_vnode,init,1}},{almost_current_function,{gen_fsm,loop,7}},{message_queue_len,0}] [{timeout,399},{old_heap_block_size,0},{heap_block_size,1597},{mbuf_size,0},{stack_size,43},{old_heap_size,0},{heap_size,806}]
+2012-04-13 11:42:48.814 [info] <0.411.0>@riak_kv_js_vm:terminate:240 Spidermonkey VM (pool: riak_kv_js_hook) host stopping (<0.411.0>)
+2012-04-13 11:42:48.810 [info] <0.395.0>@riak_kv_js_vm:terminate:240 Spidermonkey VM (pool: riak_kv_js_map) host stopping (<0.395.0>)

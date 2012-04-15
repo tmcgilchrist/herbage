@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @plant.name %>
+</p>
+
+<p>
+  <b>Common names:</b>
+  <%= @plant.common_names %>
+</p>
+
+<p>
+  <b>Genus:</b>
+  <%= @plant.genus %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @plant.description %>
+</p>
+
+<p>
+  <b>Care:</b>
+  <%= @plant.care %>
+</p>
+
+<p>
+  <b>Soil:</b>
+  <%= @plant.soil %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%= @plant.position %>
+</p>
+
+<p>
+  <b>Colour:</b>
+  <%= @plant.colour %>
+</p>
+
+
+<%= link_to 'Edit', edit_plant_path(@plant) %> |
+<%= link_to 'Back', plants_path %>

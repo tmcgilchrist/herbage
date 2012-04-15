@@ -13,6 +13,11 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+[#]*[#]
+.[#]*
 
 # Ignore Mac index files
 .DS_Store
+
+# Ignore Riak directory
+riak-1.1.1

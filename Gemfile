@@ -24,6 +24,7 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
   gem 'cucumber'
+  gem 'simplecov'
 end
 
 # To use debugger

@@ -21,3 +21,4 @@
 
 # Ignore Riak directory
 riak-1.1.1
+db/development

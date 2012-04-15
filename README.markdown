@@ -29,7 +29,10 @@ Features:
  * Landscape designers and other professionals could have personalised space to
    showcase their work with pictures and explaination. As an alternative to
    having their own site?
- *
+ * Concept of tools for planning gardens and choosing plants.
+   * Flowering chooser
+   * Fruit / Vegie Chooser
+
 
 ## Location
 
@@ -46,7 +49,10 @@ https://bitbucket.org/lambda_foo/herbage
  * Map -> basic dimensions, geolocation, plan/schematic?
  * Plant -> individual species
 
-Store data as markdown within the application and render it on demand.
+ * Garden -> a garden for specific site, which can be broken up into a number of
+   'Sites'
+
+Store data as markdown within the application and render it on demand?
 
 Provide github like markdown editing page with preview button that works via
 AJAX.

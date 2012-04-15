@@ -21,16 +21,13 @@ describe Plant do
 
 
   it 'should ensure required fields are present' do
-
     plant = Plant.new
 
     plant.should_not be_valid
-
     plant.errors.size.should eql(7)
     plant.errors[:name][0].should eql('is a required field')
     plant.errors[:species][0].should eql('is a required field')
     plant.errors[:colour][0].should eql('is a required field')
-
     plant.errors[:description][0].should eql('needs to be filled in')
     plant.errors[:care][0].should eql('needs to be filled in')
     plant.errors[:position][0].should eql('needs to be filled in')

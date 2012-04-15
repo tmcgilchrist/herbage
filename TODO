@@ -1,7 +1,5 @@
-- Simple CRUD interface for Plants
-- Gather sample plant tags from our garden.
-
-- install and configure cucumber.
-
+- enter plant information from our plants into seeds.rb
 - sketch out mockups for main page, add/edit page & search page
-- use OAuth library to do twitter or google logins
+- extend Plant model with dimensions for a plant.
+
+- think about adding tags for common_names, uses

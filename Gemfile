@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.2'
 
 gem 'bson_ext', '1.6.1'
-gem 'ripple', :git => "git://github.com/seancribbs/ripple.git"
+#gem 'ripple', :git => "git://github.com/seancribbs/ripple.git"
 gem 'pg'
 
 # Gems used only for assets and not required

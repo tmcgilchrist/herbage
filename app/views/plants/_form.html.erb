@@ -20,12 +20,20 @@
     <%= f.text_field :common_names %>
   </div>
   <div class="field">
+    <%= f.label :species %><br />
+    <%= f.text_field :species %>
+  </div>
+  <div class="field">
     <%= f.label :genus %><br />
     <%= f.text_field :genus %>
   </div>
   <div class="field">
     <%= f.label :description %><br />
     <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :colour %><br />
+    <%= f.text_field :colour %>
   </div>
   <div class="field">
     <%= f.label :care %><br />
@@ -38,10 +46,6 @@
   <div class="field">
     <%= f.label :position %><br />
     <%= f.text_area :position %>
-  </div>
-  <div class="field">
-    <%= f.label :colour %><br />
-    <%= f.text_field :colour %>
   </div>
   <div class="actions">
     <%= f.submit %>

@@ -32,7 +32,7 @@ Features:
  * Concept of tools for planning gardens and choosing plants.
    * Flowering chooser
    * Fruit / Vegie Chooser
-
+ * Companion plant recommendations with user feedback
 
 ## Location
 

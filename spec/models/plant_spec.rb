@@ -5,12 +5,18 @@ describe Plant do
   def valid_plant_attributes
     {
       :name => 'Camelia X vernalis',
-      :species => 'Camellia sasanqua',
+      :common_names => 'Camelia',
+      :origin => 'China',
+      :dimensions => '20x400',
+      :cultural_conditions => '',
+      :flowering_season => '',
       :colour => 'Red',
+      :growth_rate => 'Slow',
+      :foliage_colour => 'Dark green',
+      :potential_use => 'Screen',
+      :potential_style => 'formal',
       :description => 'An early flowering camelia with bright red flowers with yellow stamens.',
-      :care => 'Keep moist and mulch with compost.',
-      :position => 'Sunny or partly shaded postition. Protect from strong winds.',
-      :soil => 'Well drained, slightly acidic soil.'
+      :comments_care => 'Keep moist and mulch with compost. Sunny or partly shaded postition. Protect from strong winds. Well drained, slightly acidic soil.'
     }
   end
 
@@ -24,14 +30,11 @@ describe Plant do
     plant = Plant.new
 
     plant.should_not be_valid
-    plant.errors.size.should eql(7)
+    plant.errors.size.should eql(4)
     plant.errors[:name][0].should eql('is a required field')
-    plant.errors[:species][0].should eql('is a required field')
     plant.errors[:colour][0].should eql('is a required field')
     plant.errors[:description][0].should eql('needs to be filled in')
-    plant.errors[:care][0].should eql('needs to be filled in')
-    plant.errors[:position][0].should eql('needs to be filled in')
-    plant.errors[:soil][0].should eql('needs to be filled in')
+    plant.errors[:comments_care][0].should eql('needs to be filled in')
   end
 
   it 'should ensure unique names for plants' do

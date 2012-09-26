@@ -3,17 +3,18 @@ class CreatePlants < ActiveRecord::Migration
     create_table :plants do |t|
       t.string :name
       t.string :common_names
-      t.string :species
-      t.string :genus
-      t.string :colour
-
+      t.string :origin
+      t.string :dimensions
+      t.string :cultural_conditions
       t.string :flowering_season
-      t.string :fruiting_season
+      t.string :colour
+      t.string :growth_rate
+      t.string :foliage_colour
+      t.string :potential_use
+      t.string :potential_style
 
+      t.text :comments_care
       t.text :description
-      t.text :care
-      t.text :position
-      t.text :soil
 
       t.timestamps
     end

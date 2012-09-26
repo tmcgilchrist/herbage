@@ -63,3 +63,12 @@ Provide rails controller that takes markdown request and returns html.
 
   * [http://www.frecklegirl.com/blog/2005/04/12/knitters-help/](http://www.frecklegirl.com/blog/2005/04/12/knitters-help/)
   * [http://codemonkey.ravelry.com/2010/03/24/ravelry-runs-on-2010/](http://codemonkey.ravelry.com/2010/03/24/ravelry-runs-on-2010/)
+
+
+
+ Plant: Describes a species of plant.
+ Plant Location: Physical location for a plant
+
+ Gardener: person who owns or manages a garden(s)
+
+ Garden: bounded physical location, associated with a Gardener containing many plants

@@ -71,4 +71,5 @@ Provide rails controller that takes markdown request and returns html.
 
  Gardener: person who owns or manages a garden(s)
 
- Garden: bounded physical location, associated with a Gardener containing many plants
+ Garden: bounded physical location, associated with a Gardener containing many
+ plants

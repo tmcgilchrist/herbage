@@ -11,8 +11,7 @@
 ## Plants
 [
  {:name => 'Camelia X vernalis',
-   :species => 'Camellia sasanqua',
-   :genus => 'Camelia',
+   :species => 'Camelia sasanqua',
    :common_names => 'Yuletide, Christmas Camellia',
    :colour => 'Red',
    :description => 'An evergreen shurb, closely related to C. Sasanqua, growing to approximately 3m with small, bright green foliage. Abundant flowers are produced in winter to spring. Ideal for screens, hedging, large containers and espaliers.',
@@ -20,8 +19,7 @@
    :position => 'Sunny or partly shaded postition. Protect from strong winds.',
    :soil => 'Well drained, slightly acidic soil. Before planting combine soil with organic matter for best results.'},
  {:name => 'Azalea kurume',
-   :species => 'Azalea',
-   :genus => 'Rhododendron',
+   :species => 'Rhododendron Azalea',
    :common_names => 'Kirin',
    :colour => 'Rose pink',
    :description => 'A small, bushy, evergreen shrub with silvery rose pink, hose in house flowers. Main flowering period is spring with spot flowering during autumn',
@@ -31,7 +29,6 @@
  },
   {:name => "Grevillia Lanigera 'Mount Tamboritha'",
    :species => 'Grevillia Lanigera',
-   :genus => 'Grevillea',
    :common_names => 'Mt Tamboritha',
    :colour => 'Red and yellow flowers.',
    :description => 'An evergreen, spreading shrub with attractive narrow pointed green leaves crowded along the stem. This Australian native plant produces masses of red and yellow spider flowers over a lon period of time. Thrives in a sunny or semi-shaded position. Tolerates coastal conditions, extended wet and dry periods and light frost.',

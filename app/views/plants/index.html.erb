@@ -16,7 +16,7 @@
     <th></th>
   </tr>
 
-<% @plants.each do |plant| %>c
+<% @plants.each do |plant| %>
   <tr>
     <td><%= plant.name %></td>
     <td><%= plant.common_names %></td>
@@ -27,13 +27,13 @@
     <td><%= plant.soil %></td>
     <td><%= plant.position %></td>
     <td><%= plant.colour %></td>
-    <td><%= link_to 'Show', plant %></td>
-    <td><%= link_to 'Edit', edit_plant_path(plant) %></td>
-    <td><%= link_to 'Destroy', plant, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to 'Show', plant, :class => 'btn btn-mini' %></td>
+    <td><%= link_to 'Edit', edit_plant_path(plant), :class => 'btn btn-mini' %></td>
+    <td><%= link_to 'Destroy', plant, confirm: 'Are you sure?', method: :delete, :class => 'btn btn-mini btn-danger'%></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Plant', new_plant_path %>
+<%= link_to 'New Plant', new_plant_path, :class => 'btn btn-primary' %>

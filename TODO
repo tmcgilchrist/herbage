@@ -1,5 +1,6 @@
 ## Tasks in Rough Order of Importance
 - apply twitter bootstrap styling to plant views
+- convert to use HAML
 - deploy to heroku and reserve name 'herbage'
 
 

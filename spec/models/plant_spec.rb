@@ -6,12 +6,9 @@ describe Plant do
     {
       :name => 'Camelia X vernalis',
       :common_names => 'Camelia',
-      :origin => 'China',
       :dimensions => '20x400',
-      :cultural_conditions => '',
       :flowering_season => '',
       :colour => 'Red',
-      :growth_rate => 'Slow',
       :foliage_colour => 'Dark green',
       :potential_use => 'Screen',
       :potential_style => 'formal',
@@ -21,7 +18,6 @@ describe Plant do
   end
 
   it 'should save a valid plant model' do
-
     Plant.create!(valid_plant_attributes)
   end
 

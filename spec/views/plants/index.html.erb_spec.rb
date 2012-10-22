@@ -36,7 +36,6 @@ describe "plants/index" do
     assert_select "tr>td", :text => "Species".to_s, :count => 2
     assert_select "tr>td", :text => "Genus".to_s, :count => 2
     assert_select "tr>td", :text => "Pretty yellow plant".to_s, :count => 2
-    assert_select "tr>td", :text => "Water well".to_s, :count => 2
     assert_select "tr>td", :text => "Acidic well mulched".to_s, :count => 2
     assert_select "tr>td", :text => "Sunny".to_s, :count => 2
     assert_select "tr>td", :text => "Yellow".to_s, :count => 2

@@ -33,8 +33,7 @@
    :colour => 'Red and yellow flowers.',
    :description => 'An evergreen, spreading shrub with attractive narrow pointed green leaves crowded along the stem. This Australian native plant produces masses of red and yellow spider flowers over a lon period of time. Thrives in a sunny or semi-shaded position. Tolerates coastal conditions, extended wet and dry periods and light frost.',
    :care => 'Low maintenance.',
-   :position => 'Full sun or semi shaded position.',
-   :soil => 'Well drained soil'
+   :position => 'Full sun or semi shaded position.'
  },
   {:name => 'Cyathea cooperi',
    :species => 'Cyathea cooperi',
@@ -43,8 +42,7 @@
    :colour => 'Large green, lacy fronds.',
    :description => 'A fast growing tree fern with large, lacy fronds emergin froma slender trunk. Perfect for a shady garden or fernery. Grows best in a cool, moist, shady position but tolerates considerable exposure to sun of given adequate water. Keep moist at all times and remove spent fronds regularily. Apply organic fertiliser during spring.',
    :care => 'Keep moist and apply organic fertiliser during spring.',
-   :position => 'Prefers shady position but will tolerate full sun.',
-   :soil => 'Cool, moist, well mulched soil.'
+   :position => 'Prefers shady position but will tolerate full sun.'
  },
  {:name => 'Musa Velutina',
    :species => 'Musa Velutina',
@@ -53,8 +51,7 @@
    :colour => 'Pink fruit and dark green leaves.',
    :description => 'Musa velutina, the Pink Banana, is a species of seeded banana. Fruits are 3 inches long, pink, and fuzzy. They are born on erect flower stalks with a pink inflorescence. Musa velutina flowers at a young age, doing so within a year. The fruits peal back when ripe. It is often grown as an ornamental, but has soft, sweet flesh that can be eaten. The seeds are quite hard and can chip a tooth.',
    :care => 'Bananas like rich, well-drained soil with added organic material (compost and manures). They need a position in full sun with protection from frost and strong winds. Encourage plenty of leafy growth with good watering and mulching. Feed with a complete fertiliser during the growth periods (spring to autumn). Remove dead leaves to keep the plant tidy. Also, cut down stems that are dying back after fruiting. Propagate from ripe seed or by dividing the clump.',
-   :position => 'Position in full sun with protection from frost and strong winds.',
-   :soil => 'Rich well drained.'
+   :position => 'Position in full sun with protection from frost and strong winds.'
  },
  {:name => 'Japanese Box',
    :species => 'Buxus Microphylla',
@@ -63,8 +60,7 @@
    :colour => 'Dark green, glossy leaves.',
    :description => 'It is an evergreen shrub or small tree growing to 2–3 m tall. The leaves are bright green, 10–25 mm long, oval with a rounded or notched tip. Japanese Box is grown for its foliage and is used for formal or informal hedging, border planting and topiary work. It can also be mass planted as a filler, establishing in 3 to 5 years and may be a bonsai subject. It is important to keep moist during dry periods as the plant will suddenly drown off if allowed to dry out.',
    :care => 'Keep well watered during dry periods. Fertilise well to keep green foliage.',
-   :position => 'Full sun to part shade.',
-   :soil => 'Well drained.'
+   :position => 'Full sun to part shade.'
  },
  {:name => 'Lily turf',
    :species => 'Liriope muscari',
@@ -73,8 +69,7 @@
    :colour => 'Grass-like evergreen foliage and lilac-purple flowers',
    :description => 'It is a tufted, grass-like perennial which typically grows 12-18 inches (30 to 45 cm) tall and features clumps of strap-like, arching, glossy, dark green leaves (to 1/2 inch wide (1.3 cm)). [2] Clumps slowly expand by short stolons to a width of about 1 foot (30 cm), but plants do not spread aggressively. Roots are fibrous, often with terminal tubers. The small, showy flower occur on erect spikes with tiered whorls of dense, white to violet-purple flowers rising above the leaves in late summer. Flowers resemble those of grape hyacinth (Muscari), which is the origin of the species name. Flowers develop into blackish berries which often persist into winter. ',
    :care => 'The species is easily grown in average, medium, well-drained soils in full sun to part shade. Ideal conditions are moist, fertile soils with partial shade. ',
-   :position => 'Full sun to shade.',
-   :soil => 'Well drained.'
+   :position => 'Full sun to shade.'
  },
  {:name => 'Magnolia grandiflora',
    :species => 'Magnolia grandiflora',
@@ -83,8 +78,7 @@
    :colour => 'Large dark green leaves with rusty red beneath and large white fragrant flowers',
    :description => 'Magnolia grandiflora is a medium to large evergreen tree which may grow 27.5 m (90 ft) tall. It typically has a single stem (or trunk) and a pyramidal shape. The leaves are simple and broadly ovate, 12–20 cm (5–8 in) long and 6–12 cm (2–5 in) broad, with smooth margins. They are dark green, stiff and leathery, and often scurfy underneath with yellow-brown pubescence. The large, showy, lemon citronella-scented flowers are white, up to 30 cm (12 in) across and fragrant, with 6–12 petals with a waxy texture, emerging from the tips of twigs on mature trees in late spring. Flowering is followed by the rose-coloured fruit, ovoid and 7.5–10 cm (3–4 in) long and 3–5 cm (1.5–2 in) wide.',
    :care => 'Benefits from summer watering. Remove spent flowers to encourage new growth and more flowers.',
-   :position => 'Full sun to part shade.',
-   :soil => 'Moist well drained'
+   :position => 'Full sun to part shade.'
  },
  {:name => 'Gardenia augusta',
    :species => 'Gardenia jasminoides',
@@ -93,7 +87,6 @@
    :colour => 'shiny green leaves and fragrant white summer flowers',
    :description => 'Gardenia jasminoides is a shrub with greyish bark and dark green shiny leaves with prominent veins. The white flowers bloom in spring and summer and are highly fragrant. They are followed by small oval fruit.',
    :care => 'Grows best in warm position in well drained, humus rich soil. A full sun or part shade position is best with protection from frost.',
-   :position => 'Full sun to part shade.',
-   :soil => 'Well drained, humus rich'
+   :position => 'Full sun to part shade.'
  }
 ].each {|p| Plant.create(p)}

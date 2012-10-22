@@ -2,6 +2,7 @@ class CreatePlants < ActiveRecord::Migration
   def change
     create_table :plants do |t|
       t.string :name
+      t.string :species
       t.string :common_names
       t.string :origin
       t.string :dimensions

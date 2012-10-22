@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(:version => 20120414231829) do
 
   create_table "plants", :force => true do |t|
     t.string   "name"
+    t.string   "species"
     t.string   "common_names"
     t.string   "origin"
     t.string   "dimensions"

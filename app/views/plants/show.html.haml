@@ -1,0 +1,37 @@
+%h1= @plant.name
+
+%p
+  %b= 'Name:'
+  = @plant.name
+
+%p
+  %b= 'Common names:'
+  = @plant.common_names
+
+%p
+  %b= 'Genus:'
+  = @plant.genus
+
+%p
+  %b= 'Colour:'
+  = @plant.colour
+
+%p
+  %b= 'Description:'
+  = @plant.description
+
+%p
+  %b= 'Care:'
+  = @plant.comments_care
+
+%p
+  %b= 'Soil:'
+  = @plant.soil
+
+%p
+  %b= 'Position:'
+  = @plant.position
+
+
+= link_to 'Edit', edit_plant_path(@plant)
+= link_to 'Back', plants_path

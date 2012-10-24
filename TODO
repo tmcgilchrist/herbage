@@ -1,6 +1,7 @@
 ## Tasks in Rough Order of Importance
 - apply twitter bootstrap styling to plant views
 - convert to use HAML
+  -> find view helper for truncating a long description
 - deploy to heroku and reserve name 'herbage'
 
 

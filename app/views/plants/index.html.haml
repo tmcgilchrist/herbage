@@ -1,0 +1,33 @@
+%h1= 'Listing plants'
+
+%table.table.table-striped
+  %tr
+    %th= 'Name'
+    %th= 'Common names'
+    %th= 'Species'
+    %th= 'Genus'
+    %th= 'Description'
+    %th= 'Care'
+    %th= 'Soil'
+    %th= 'Position'
+    %th= 'Colour'
+    %th
+    %th
+    %th
+  - @plants.each do |plant|
+    %tr
+      %td= plant.name
+      %td= plant.common_names
+      %td= plant.species
+      %td= plant.genus
+      %td= plant.description
+      %td= plant.comments_care
+      %td= plant.soil
+      %td= plant.position
+      %td= plant.colour
+      %td= link_to 'Show', plant, :class => 'btn btn-mini'
+      %td= link_to 'Edit', edit_plant_path(plant), :class => 'btn btn-mini'
+      %td= link_to 'Destroy', plant, confirm: 'Are you sure?', method: :delete, :class => 'btn btn-mini btn-danger'
+
+%br
+  = link_to 'New Plant', new_plant_path, :class => 'btn btn-primary'

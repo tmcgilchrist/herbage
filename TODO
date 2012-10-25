@@ -1,9 +1,8 @@
 ## Tasks in Rough Order of Importance
-- find view helper for truncating a long description
-- deploy to heroku and reserve name 'herbage'
 - document deploy process to Heroku
 - how to store the images on heroku??
-
+- provide hints on what to write in edit / new form
+-
 http://www.colourlovers.com/palette/90734/Newly_Risen_Moon
 
 http://www.colourlovers.com/palette/1384058/Magnolia_Bakery

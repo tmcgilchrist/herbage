@@ -1,12 +1,13 @@
 
-= simple_form_for @plant do |f|
+= simple_form_for @plant, :html => {:class => 'form-horizontal'} do |f|
   = f.input :name
   = f.input :common_names
-  = f.input :dimensions
-  = f.input :flowering_season
+  = f.input :dimensions, :input_html => {:placeholder => '400x50cm'}
+  = f.input :flowering_season, :input_html => {:placeholder => 'eg Late Spring'}
   = f.input :colour
   = f.input :foliage_colour
-  = f.input :potential_use
+  = f.input :potential_use, :input_html => {:placeholder => 'eg Cottage, Tropical'}
   = f.input :potential_style
   = f.input :comments_care
   = f.input :description
+  = f.button :submit

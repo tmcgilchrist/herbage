@@ -73,3 +73,8 @@ Provide rails controller that takes markdown request and returns html.
 
  Garden: bounded physical location, associated with a Gardener containing many
  plants
+
+
+### Deploying to Heroku
+
+Commit changes and `git push heroku`

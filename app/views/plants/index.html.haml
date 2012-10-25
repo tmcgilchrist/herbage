@@ -1,5 +1,8 @@
 %h1= 'Listing plants'
 
+%p
+  = link_to 'New Plant', new_plant_path, :class => 'btn'
+
 %table.table.table-striped
   %tr
     %th= 'Name'
@@ -20,14 +23,11 @@
       %td= plant.common_names
       %td= plant.species
       %td= plant.genus
-      %td= plant.description
-      %td= plant.comments_care
+      %td= truncate plant.description
+      %td= truncate plant.comments_care
       %td= plant.soil
       %td= plant.position
       %td= plant.colour
       %td= link_to 'Show', plant, :class => 'btn btn-mini'
       %td= link_to 'Edit', edit_plant_path(plant), :class => 'btn btn-mini'
       %td= link_to 'Destroy', plant, confirm: 'Are you sure?', method: :delete, :class => 'btn btn-mini btn-danger'
-
-%br
-  = link_to 'New Plant', new_plant_path, :class => 'btn btn-primary'

@@ -1,9 +1,8 @@
 ## Tasks in Rough Order of Importance
-- apply twitter bootstrap styling to plant views
-- convert to use HAML
-  -> find view helper for truncating a long description
+- find view helper for truncating a long description
 - deploy to heroku and reserve name 'herbage'
-
+- document deploy process to Heroku
+- how to store the images on heroku??
 
 http://www.colourlovers.com/palette/90734/Newly_Risen_Moon
 

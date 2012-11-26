@@ -1,8 +1,23 @@
 ## Tasks in Rough Order of Importance
-- document deploy process to Heroku
-- how to store the images on heroku??
+- reorder fields on plant create/edit page, put requred fields first.
+- refactor tests to use machinist
+- basic search on plant name
+- signup for S3 account
+- Add paperclip / S3 for managing uploading images.
+
 - provide hints on what to write in edit / new form
--
+- add home page using bootstrap marketing template
+- Add category / tags to plants?
+- Add html 5 canvas designer program
+- add google analytics to home page
+- add site copy to front page outlining what the product does
+      - tools ??
+
+- searching for plants, search on colour, name
+
+- tooltip popup when you hover over the truncated fields.
+- tooltip popup showing colour on hover
+
 http://www.colourlovers.com/palette/90734/Newly_Risen_Moon
 
 http://www.colourlovers.com/palette/1384058/Magnolia_Bakery

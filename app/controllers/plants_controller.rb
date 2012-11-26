@@ -10,6 +10,11 @@ class PlantsController < ApplicationController
     end
   end
 
+  # GET /plants/search?
+  # GET /plants/
+  def search
+  end
+
   # GET /plants/1
   # GET /plants/1.json
   def show

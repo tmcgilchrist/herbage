@@ -25,5 +25,7 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
   gem 'cucumber'
+  gem 'machinist'
+  gem 'forgery'
   gem 'simplecov'
 end

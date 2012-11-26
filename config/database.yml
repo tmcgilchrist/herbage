@@ -17,7 +17,7 @@ test:
   min_messages: WARNING
 
 production:
-  adapter: psotgresql
+  adapter: postgresql
   database: herbage
   username: herbage
   password: password

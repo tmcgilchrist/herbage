@@ -1,3 +1,4 @@
+Wed Nov 14 08:01:03 EST 2012
 # Plant / Garden DB
 Rails application to store plants in our garden. Include pictures with clickable
 areas that link to the plant in the picture. Similar to how flickr picture can
@@ -19,7 +20,9 @@ Features:
  * Searchable catalogue of plants
  * Pictures of garden tagged with plant information
  * Individual Plant pages.
- * Map of areas with plantings
+ * Map of areas with plantings.
+ * Customised dashboard with recommendations, upcoming things to do, news feed?
+ * scrap book page with plants, maybe collect plants / pictures u like.
  * Recommendations on plants or feedback on how they are going.
  * Map with flowering slider, showing what will be flowering at particular times so you can plan a garden around it.
  * Intelligent agent to recommend fixes/solutions to common plant issues. ie describe leaf colour, soil condition, etc and come up with some solutions to try.
@@ -78,3 +81,13 @@ Provide rails controller that takes markdown request and returns html.
 ### Deploying to Heroku
 
 Commit changes and `git push heroku`
+
+Run rake commands on heroku
+
+  heroku run ...
+  eg
+  heroku run rake db:seed
+
+See
+[https://devcenter.heroku.com/articles/rails3](https://devcenter.heroku.com/articles/rails3)
+for more details.

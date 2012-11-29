@@ -8,3 +8,12 @@ Plant.blueprint do
   comments_care { Forgery::LoremIpsum.text }
   colour { Forgery::Basic.color }
 end
+
+Plant.blueprint(:camelia) do
+  name {'Camelia X vernalis'}
+  common_names {'Camelia'}
+  dimensions {'20x400'}
+  colour {'Red'}
+  description {'An early flowering camelia with bright red flowers with yellow stamens.'}
+  comments_care {'Keep moist and mulch with compost. Sunny or partly shaded postition. Protect from strong winds. Well drained, slightly acidic soil.'}
+end

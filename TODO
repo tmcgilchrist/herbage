@@ -1,10 +1,9 @@
 ## Tasks in Rough Order of Importance
-- reorder fields on plant create/edit page, put requred fields first.
-- refactor tests to use machinist
+- add basic authentication
 - basic search on plant name
 - signup for S3 account
 - Add paperclip / S3 for managing uploading images.
-
+- rename the colour attributes, 1 for flowers 1 for foliage
 - provide hints on what to write in edit / new form
 - add home page using bootstrap marketing template
 - Add category / tags to plants?

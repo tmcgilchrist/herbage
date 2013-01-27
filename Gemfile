@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.2'
+gem 'rails'
 
 gem 'pg'
 gem 'haml'
 gem 'haml-rails', '>= 0.3.4'
 
 gem 'simple_form'
+gem 'devise'
 gem 'annotate', ">=2.5.0"
 
 # Gems used only for assets and not required

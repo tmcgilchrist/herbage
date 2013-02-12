@@ -9,7 +9,7 @@ gem 'haml-rails', '>= 0.3.4'
 gem 'simple_form'
 gem 'devise'
 gem 'annotate', ">=2.5.0"
-
+gem 'newrelic_rpm'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

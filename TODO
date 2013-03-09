@@ -1,9 +1,13 @@
 ## Tasks in Rough Order of Importance
 - add basic authentication on creating plants
-  -> Added devise, need to finish fixing specs and verify it covers correct pages
-
+  -> Added devise, need to finish fixing specs and verify it covers correct pages (DONE)
+  -> Customise signup process.
 
 - add vegetable / herb specific information; spacing, planting times, time to yield(growing weeks),
+
+- add seed catalogue idea,
+  -> What seeds do I have?
+  -> details about planting times, source and species. Maybe group together in families.
 
 - rename Common names to other names.
 - merge potential use and potential style?

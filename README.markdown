@@ -14,6 +14,7 @@ etc.
 
 The plant DB is the MVP. Allow CRUD plus powerful searching.
 
+[Herbage] (http://herbage.herokuapp.com/)
 
 Features:
 
@@ -91,3 +92,5 @@ Run rake commands on heroku
 See
 [https://devcenter.heroku.com/articles/rails3](https://devcenter.heroku.com/articles/rails3)
 for more details.
+
+[Herbage] (http://herbage.herokuapp.com/)

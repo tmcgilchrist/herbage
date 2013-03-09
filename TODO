@@ -1,5 +1,7 @@
 ## Tasks in Rough Order of Importance
-- add basic authentication
+- add basic authentication on creating plants
+  -> Added devise, need to finish fixing specs and verify it covers correct pages
+
 
 - add vegetable / herb specific information; spacing, planting times, time to yield(growing weeks),
 
@@ -7,6 +9,7 @@
 - merge potential use and potential style?
 - basic search on plant name
 - pre-defined list just for vegetables and fruit
+- add gardener account page, that allows
 - signup for S3 account
 - Add paperclip / S3 for managing uploading images.
 - rename the colour attributes, 1 for flowers 1 for foliage

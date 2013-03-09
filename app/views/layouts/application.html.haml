@@ -16,5 +16,11 @@
             %ul.nav
               %li= link_to "Browse Plants", plants_path, class: 'active'
       %div.row
+        - if notice
+          %p.notice
+            = notice
+        - if alert
+          %p.alert
+            = alert
         %div.span9
           = yield

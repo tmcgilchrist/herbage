@@ -17,3 +17,9 @@ Plant.blueprint(:camelia) do
   description {'An early flowering camelia with bright red flowers with yellow stamens.'}
   comments_care {'Keep moist and mulch with compost. Sunny or partly shaded postition. Protect from strong winds. Well drained, slightly acidic soil.'}
 end
+
+
+Gardener.blueprint do
+  email {Forgery(:email).address}
+  password {Forgery(:basic).password}
+end

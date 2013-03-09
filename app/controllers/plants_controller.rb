@@ -1,4 +1,6 @@
 class PlantsController < ApplicationController
+  before_filter :authenticate_gardener!, :except => [:index, :show]
+
   # GET /plants
   # GET /plants.json
   def index

@@ -2,6 +2,11 @@ require 'spec_helper'
 
 describe PlantsController do
 
+  before do
+    @gardener = Gardener.make!
+    sign_in @gardener
+  end
+
   describe "GET index" do
     it "assigns all plants as @plants" do
       plant = Plant.make!

@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @seed.name
+%p
+  %b Source:
+  = @seed.source
+%p
+  %b Sowing time:
+  = @seed.sowing_time
+%p
+  %b Species:
+  = @seed.species
+
+= link_to 'Edit', edit_seed_path(@seed)
+\|
+= link_to 'Back', seeds_path

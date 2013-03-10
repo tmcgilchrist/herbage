@@ -1,0 +1,11 @@
+= simple_form_for(@seed) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :name
+    = f.input :source
+    = f.input :sowing_time
+    = f.input :species
+
+  .form-actions
+    = f.button :submit

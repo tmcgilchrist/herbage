@@ -1,0 +1,25 @@
+%h1 Listing seeds
+
+%table
+  %tr
+    %th Name
+    %th Source
+    %th Sowing time
+    %th Species
+    %th
+    %th
+    %th
+
+  - @seeds.each do |seed|
+    %tr
+      %td= seed.name
+      %td= seed.source
+      %td= seed.sowing_time
+      %td= seed.species
+      %td= link_to 'Show', seed
+      %td= link_to 'Edit', edit_seed_path(seed)
+      %td= link_to 'Destroy', seed, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Seed', new_seed_path

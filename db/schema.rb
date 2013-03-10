@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121129211316) do
+ActiveRecord::Schema.define(:version => 20130309235754) do
 
   create_table "gardeners", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -48,6 +48,15 @@ ActiveRecord::Schema.define(:version => 20121129211316) do
     t.string   "potential_style"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
+  end
+
+  create_table "seeds", :force => true do |t|
+    t.string   "name"
+    t.string   "source"
+    t.string   "sowing_time"
+    t.string   "species"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
 end

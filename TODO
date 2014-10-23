@@ -3,6 +3,11 @@
   -> Added devise, need to finish fixing specs and verify it covers correct pages (DONE)
   -> Customise signup process.
 
+- add basic catalogue of seeds
+  -> listing by name (DONE)
+  -> add pictures of the plant
+  -> protect new/create/delete ie destructive operations with devise
+
 - add vegetable / herb specific information; spacing, planting times, time to yield(growing weeks),
 
 - add seed catalogue idea,
